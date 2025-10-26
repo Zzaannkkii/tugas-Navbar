@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    background-color: #6c8088;
+    color: black;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 3px solid rgba(0, 0, 255, 0);
+    background-color: #51a6c8;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.searchbar input {
+    padding: 5px;
+}
+
+/* Produk */
+.produk {
+    display: flex;
+    border-top: 3px solid rgba(0, 0, 255, 0);
+    min-height: 350px;
+}
+
+.kiri {
+    width: 30%;
+    text-align: center;
+    padding: 20px;
+}
+
+.kanan {
+    width: 70%;
+    border-left: 2px solid rgba(0, 0, 255, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5a6b73;
+}
+
+.kanan img {
+    width: 80%;
+    max-width: 400px;
+    border: 2px solid black;
+}
+
+/* Produk lain */
+.produk-lain {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.box {
+    width: 25%;
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+    background-color: #4e646d;
+}
+
+.box img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.isi-footer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.bawah-footer {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 13px;
+}
